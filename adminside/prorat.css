@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e2e2e2;
+}
+
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+  border-right: 1px solid #ddd;
+}
+.sidebar .nav-link {
+  color: #000000;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+}
+.nav-link:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+.product-card {
+    border-radius: 8px;
+    font-size: 0.9rem;
+    background-color: #fff;
+}
+
+.product-img {
+    width: 120px;
+    height: 80px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.product-card h6 {
+    font-size: 22px;
+    padding-left: 30px;
+}
+
+.rating {
+    font-size: 22px;
+    padding-right: 50px;
+    color: #f39c12; 
+}

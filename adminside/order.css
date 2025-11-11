@@ -1,0 +1,57 @@
+
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+  border-right: 1px solid #ddd;
+}
+.sidebar .nav-link {
+  color: #000000;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+}
+.nav-link:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.table-active {
+  background-color: #f8f9fa !important;
+  border-radius: 8px;
+}
+
+
+
+
+
+/* Change checkbox size */
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+/* Change image size */
+.custom-img {
+  width: 50px;   /* adjust as needed */
+  height: 50px;  /* keep square for circle */
+  object-fit: cover;
+}
+
+/* Change badge size */
+.custom-badge {
+  font-size: 14px;   /* smaller or bigger */
+  padding: 5px 10px; /* adjust spacing */
+}
+
+/* Change row height */
+tr {
+  height: 60px;   /* increase/decrease row size */
+  vertical-align: middle; /* keep content aligned */
+}

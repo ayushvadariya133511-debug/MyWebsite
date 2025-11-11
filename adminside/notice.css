@@ -1,0 +1,45 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  min-height: 100vh;
+  position: fixed;
+  border-right: 1px solid #ddd;
+}
+.sidebar .nav-link {
+  color: #000000;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 600;
+}
+.nav-link:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+
+
+/* Content boxes */
+.content-box {
+  background: #fff;
+  border-radius: 8px;
+  min-height: 300px;   /* increased height */
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* If you want the full-width (second row) box taller */
+.row .col-12 .content-box {
+  min-height: 400px;  /* makes bottom box taller */
+}

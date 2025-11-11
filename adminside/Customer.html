@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer List</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="Customer.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+</head>
+<body style="background-color: #e2e2e2;">
+  <div class="container-fluid min-vh-100">
+    <div class="row">
+      
+      <nav class="col-md-2 d-none d-md-block bg-white sidebar">
+        <div class="p-3">
+          <h3 class="fw-bold mb-4">Skillset</h3>
+          <ul class="nav flex-column mb-5">
+            <li class="nav-item mb-2"><a class="nav-link fw-bold  " href="dashboard.html"><i class="bi bi-bag-check-fill me-2"></i>Dashboard</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="pro.html"><i class="bi bi-box-seam-fill me-2"></i>Products</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="prorat.html"><i class="bi bi-person-heart me-2"></i>Product Rating</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="order.html"><i class="bi bi-dropbox me-2"></i>Orders</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="orderratting.html"><i class="bi bi-person-hearts me-2"></i>Order Rating</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold active" href="#"><i class="bi bi-people-fill me-2"></i>Customer</a></li>
+          </ul>
+
+          <div class="mb-5 p-3 text-center bg-dark rounded">
+            <p class="mb-2 text-white">Upgrade To Pro</p>
+            <button class="btn btn-dark btn-sm">Upgrade</button>
+          </div>
+
+          <ul class="nav py-4 flex-column mt-6">
+           <li class="nav-item"><a class="nav-link fw-bold" href="#"><i class="bi bi-gear me-2"></i> Settings</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="#"><i class="bi bi-question-circle-fill me-2"></i> Help Center</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold" href="#"><i class="bi bi-door-open-fill me-2"></i> Log out</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-10 ms-sm-auto px-md-5 py-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="fw-bold">Customer Details</h2>
+          <div class="d-flex align-items-center">
+            <input class="form-control me-2" type="search" placeholder="Search..." style="max-width: 200px;">
+            <img src="pp1.png" class="rounded-circle" alt="Profile" width="40">
+          </div>
+        </div>
+
+<div class="table-responsive bg-white rounded p-3 shadow-sm">
+  <table class="table align-middle">
+    <thead class="table-light">
+      <tr>
+        <th>Sr. No.</th>
+        <th>Name of Customer</th>
+        <th>Address</th>
+        <th>Mobile No.</th>
+        <th>Gender</th>
+      </tr>
+    </thead>
+    <tbody>
+  <tr>
+    <td>1</td>
+    <td><img src="pi1.jpg" class="rounded-circle me-2 custom-img" alt="Rohan Sharma">Rohan Sharma</td>
+    <td>Delhi</td>
+    <td>+91 9876543210</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td><img src="pi2.jpg" class="rounded-circle me-2 custom-img" alt="Priya Patel">Priya Patel</td>
+    <td>Ahmedabad, Gujarat</td>
+    <td>+91 9123456789</td>
+    <td>Female</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td><img src="pi3.jpg" class="rounded-circle me-2 custom-img" alt="Arjun Mehta">Arjun Mehta</td>
+    <td>Mumbai, Maharashtra</td>
+    <td>+91 9988776655</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td><img src="pi4.jpg" class="rounded-circle me-2 custom-img" alt="Sneha Reddy">Sneha Reddy</td>
+    <td>Hyderabad, Telangana</td>
+    <td>+91 9876501234</td>
+    <td>Female</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td><img src="pi1.jpg" class="rounded-circle me-2 custom-img" alt="Amit Verma">Amit Verma</td>
+    <td>Lucknow, Uttar Pradesh</td>
+    <td>+91 9012345678</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td><img src="pi2.jpg" class="rounded-circle me-2 custom-img" alt="Neha Singh">Neha Singh</td>
+    <td>Patna, Bihar</td>
+    <td>+91 9501234567</td>
+    <td>Female</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td><img src="pi3.jpg" class="rounded-circle me-2 custom-img" alt="Rahul Nair">Rahul Nair</td>
+    <td>Kochi, Kerala</td>
+    <td>+91 9654321098</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td><img src="pi4.jpg" class="rounded-circle me-2 custom-img" alt="Kavya Iyer">Kavya Iyer</td>
+    <td>Chennai, Tamil Nadu</td>
+    <td>+91 9765432109</td>
+    <td>Female</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td><img src="pi1.jpg" class="rounded-circle me-2 custom-img" alt="Sachin Deshmukh">Sachin Deshmukh</td>
+    <td>Pune, Maharashtra</td>
+    <td>+91 9823456789</td>
+    <td>Male</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td><img src="pi2.jpg" class="rounded-circle me-2 custom-img" alt="Anjali Gupta">Anjali Gupta</td>
+    <td>Jaipur, Rajasthan</td>
+    <td>+91 9345678901</td>
+    <td>Female</td>
+  </tr>
+</tbody>
+
+  </table>
+</div>
+
+      </main>
+    </div>
+  </div>
+</body>
+</html>

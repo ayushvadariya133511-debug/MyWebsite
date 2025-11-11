@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #b6b6b6;
+  color: #000000;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #000000;
+  padding: 20px 30px;
+  color: white;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.open-app {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: rgb(0, 72, 255);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.open-app:hover {
+  background: #002982;
+}
+
+.welcome {
+  margin-top: 65px;
+  padding: 130px;
+}
+.welcome p {
+  font-size: 16px;
+  margin-bottom: 50px;
+  color: #333;
+}
+
+.login {
+  padding: 15px 51px;
+  border: 1px solid #b6b6b6;
+  box-shadow: 10px 10px 20px rgba(81, 81, 81, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  background: #b6b6b6;
+  color: #000000;
+  font-weight: bold;
+  font-size: 17PX;
+  cursor: pointer;
+}
+
+.login:hover {
+  background: #ffffff;
+  color: #000000;
+}
+.signup {
+  padding: 15px 45px;
+  border: 1px solid #b6b6b6;
+  box-shadow: 10px 10px 20px rgba(81, 81, 81, 0.5), -10px -10px 20px rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  background: #b6b6b6;
+  color: #000000;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.signup:hover {
+  background: #ffffff;
+  color: #000000;
+}

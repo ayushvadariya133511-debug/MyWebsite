@@ -1,0 +1,80 @@
+/* setting.css */
+
+/* Body and container styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 900px;
+}
+
+/* Section headings */
+section h4 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #0d6efd; /* Bootstrap primary color */
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 5px;
+}
+
+/* Form labels */
+.form-label {
+    font-weight: 500;
+}
+
+/* Input fields */
+.form-control, .form-select {
+    border-radius: 8px;
+    padding: 10px 12px;
+    border: 1px solid #ced4da;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 8px rgba(13,110,253,0.2);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(13,110,253,0.3);
+}
+
+/* Checkbox and Radio inputs spacing */
+.form-check {
+    margin-bottom: 15px;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 50px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    section h4 {
+        font-size: 1.3rem;
+    }
+}

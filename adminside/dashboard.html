@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body style="background-color: #e2e2e2;">
+  <div class="container-fluid min-vh-100">
+    <div class="row">
+      
+      <nav class="col-md-2 d-none d-md-block bg-white sidebar">
+        <div class="p-3">
+          <h3 class="fw-bold mb-4">Skillset</h3>
+          <ul class="nav flex-column mb-5">
+            <li class="nav-item mb-2"><a class="nav-link fw-bold  active" href="#"><i class="bi bi-bag-check-fill me-2"></i>Dashboard</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="pro.html"><i class="bi bi-box-seam-fill me-2"></i>Products</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="prorat.html"><i class="bi bi-person-heart me-2"></i>Product Rating</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="order.html"><i class="bi bi-dropbox me-2"></i>Orders</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="orderratting.html"><i class="bi bi-person-hearts me-2"></i>Order Rating</a></li>
+            <li class="nav-item mb-2"><a class="nav-link fw-bold " href="customer.html"><i class="bi bi-people-fill me-2"></i>Customer</a></li>
+          </ul>
+
+          <div class="mb-5 p-3 text-center bg-dark rounded">
+            <p class="mb-2 text-white">Upgrade To Pro</p>
+            <button class="btn btn-dark btn-sm">Upgrade</button>
+          </div>
+
+          <ul class="nav py-4 flex-column mt-6">
+            <li class="nav-item"><a class="nav-link fw-bold " href="#"><i class="bi bi-gear me-2"></i> Settings</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold " href="#"><i class="bi bi-question-circle-fill me-2"></i> Help Center</a></li>
+            <li class="nav-item"><a class="nav-link fw-bold " href="#"><i class="bi bi-door-open-fill me-2"></i> Log out</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <main class="col-md-10 ms-sm-auto px-md-5 py-4">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2 class="fw-bold">Dashboard</h2>
+          <div class="d-flex align-items-center">
+            <input class="form-control me-2" type="search" placeholder="Search..." style="max-width: 200px;">
+            <img src="pp1.png" class="rounded-circle" alt="Profile" width="40">
+          </div>
+        </div>
+
+        <div class="d-flex align-items-center gap-2 mb-4">
+          <button class="btn btn-light btn-sm">Day</button>
+          <button class="btn btn-light btn-sm">Week</button>
+          <button class="btn btn-dark btn-sm">Month</button>
+          <button class="btn btn-light btn-sm">Year</button>
+          <div class="ms-3">
+            <input type="date" class="form-control form-control-sm d-inline-block" style="width: 150px;">
+            <span>  </span>
+            <input type="date" class="form-control form-control-sm d-inline-block" style="width: 150px;">
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-3">
+            <div class="bg-dark text-white rounded p-3 mb-2">
+              <div>Total Revenue</div>
+              <div class="fs-4 fw-bold">$23,902</div>
+              <small class="text-success">↑2.2% from last month</small>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-white rounded p-3 mb-2 shadow-sm">
+              <div>Active Users</div>
+              <div class="fs-4 fw-bold">16,815</div>
+              <small class="text-success">↑3.7% from last month</small>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-white rounded p-3 mb-2 shadow-sm">
+              <div>New Users</div>
+              <div class="fs-4 fw-bold">1,457</div>
+              <small class="text-danger">↓2.9% from last month</small>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="bg-white rounded p-3 mb-2 shadow-sm">
+              <div>Total Member</div>
+              <div class="fs-4 fw-bold">0723</div>
+              <small class="text-success">↑0.9% from last month</small>
+            </div>
+          </div>
+        </div>
+
+         <div class=" row mb-3">
+          <div class="col-md-6">
+            <div class="bg-white rounded p-5 shadow-sm ">
+              <div class="mt-2 "><h2>Total Revenue</h2></div>
+              <div class="chart-wrapper">
+                <div class="y-axis">
+                  <span>30K</span>
+                  <span>20K</span>
+                  <span>10K</span>
+                  <span>0</span>
+                </div>
+                <div class="revenue-chart d-flex justify-content-between align-items-end">
+                  <div class="bar" style="height: 160px;"></div>
+                  <div class="bar" style="height: 140px;"></div>
+                  <div class="bar highlight" style="height: 240px;"></div>
+                  <div class="bar" style="height: 120px;"></div>
+                  <div class="bar" style="height: 180px;"></div>
+                  <div class="bar" style="height: 90px;"></div>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between mt-2">
+                <span>Jan</span>
+                <span>Feb</span>
+                <span>Mar</span>
+                <span>Apr</span>
+                <span>May</span>
+                <span>Jun</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card calendar-card p-4 bap col-md-6">
+        <h4>September 2024</h4>
+        <div class="calendar">
+          <div class="days">
+            <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+          </div>
+          <div class="dates mb-2">
+            <span></span><span></span><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+            <span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span><span>12</span>
+            <span>13</span><span>14</span><span>15</span><span>16</span><span>17</span><span>18</span>
+            <span class="highlight">19</span><span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span>
+            <span>26</span><span>27</span><span>28</span><span>29</span><span>30</span>
+          </div>
+        </div>
+        <div class="growth">
+          <div class="circle">
+            <span>25%</span>
+          </div>
+          <p>Community Growth</p>
+        </div>
+      </div>
+    </div>
+        
+
+      </main>
+    </div>
+  </div>
+</body>
+</html>
